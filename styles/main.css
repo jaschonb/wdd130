@@ -1,0 +1,22 @@
+h1, a {
+    color: steelblue;
+}
+
+#active {
+    background-color: steelblue;
+    color: white;
+}
+
+.room {
+    background-color: rgb(231, 231, 231);
+    color: rgb(73, 60, 169);
+}
+
+.emphasis {
+    background-color: rgb(147, 140, 205);
+    color: rgb(225, 225, 225);
+}
+
+span {
+    color: rgb(73, 60, 169);
+}
