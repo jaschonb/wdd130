@@ -1,5 +1,21 @@
+body {
+    text-align: center;
+    font-size: 24px;
+}
+
 h1, a {
     color: steelblue;
+    text-align: center;
+}
+
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(235, 233, 253);
+}
+
+nav {
+    text-align: center;
 }
 
 #active {
@@ -12,11 +28,31 @@ h1, a {
     color: rgb(73, 60, 169);
 }
 
-.emphasis {
-    background-color: rgb(147, 140, 205);
-    color: rgb(225, 225, 225);
+/* Centering the image:
+You can make it a block with display: block and then centering it with margin: 0 auto, or you could put the image in its own <div> section and center it with margin 0 auto */
+img {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
 }
 
-span {
-    color: rgb(73, 60, 169);
+p {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* You can put commas to target different elements at the same time
+h1, p {
+    color: red;
+} */
+
+nav a:hover {
+    color: rgb(68, 73, 132);
 }
