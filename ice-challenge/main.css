@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+h1:hover {
+    color: black;
+}
+
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(255, 141, 247);
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+.steps {
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    width: 400px;
+}
+
+.quote {
+    font-size: 24px;
+    width: 200px;
+}
+
+.other {
+    font-size: 10px;
+    width: 300px;
+}
+
+.speaker {
+    font-size: 12px;
+    width: 250px;
+    line-height: 1.0rem;
+    color: black;
+}
+
+p {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
