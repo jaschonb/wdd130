@@ -1,6 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     text-align: center;
     font-size: 24px;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
 }
 
 h1, a {
@@ -9,18 +19,14 @@ h1, a {
 }
 
 #container {
-    max-width: 800px;
+    max-width: 1400px;
     margin: 0 auto;
     background-color: rgb(235, 233, 253);
 }
 
 nav {
     text-align: center;
-}
-
-#active {
-    background-color: steelblue;
-    color: white;
+    padding: 15px;
 }
 
 .room {
@@ -38,14 +44,22 @@ img {
 
 p {
     text-align: center;
-    width: 400px;
-    margin: 0 auto;
+    width: 500px;
+    margin: 10px auto;
     font-size: 1.2rem;
     line-height: 1.5rem;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 nav a {
     text-decoration: none;
+    padding: 5px;
+    background-color: lightgray;
+    margin: 10px;
+    border: 2px solid rgb(73, 60, 169);
+    border-radius: 5px;
+
 }
 
 /* You can put commas to target different elements at the same time
@@ -55,4 +69,5 @@ h1, p {
 
 nav a:hover {
     color: rgb(68, 73, 132);
+    background-color: rgb(231, 231, 231, .6);
 }
