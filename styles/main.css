@@ -18,30 +18,6 @@ h1, a {
     text-align: center;
 }
 
-#container {
-    max-width: 1400px;
-    margin: 0 auto;
-    background-color: rgb(235, 233, 253);
-}
-
-nav {
-    text-align: center;
-    padding: 15px;
-}
-
-.room {
-    background-color: rgb(231, 231, 231);
-    color: rgb(73, 60, 169);
-}
-
-/* Centering the image:
-You can make it a block with display: block and then centering it with margin: 0 auto, or you could put the image in its own <div> section and center it with margin 0 auto */
-img {
-    width: 300px;
-    margin: 0 auto;
-    display: block;
-}
-
 p {
     text-align: center;
     width: 500px;
@@ -52,6 +28,16 @@ p {
     box-sizing: border-box;
 }
 
+/* You can put commas to target different elements at the same time
+h1, p {
+    color: red;
+} */
+
+nav {
+    text-align: center;
+    padding: 15px;
+}
+
 nav a {
     text-decoration: none;
     padding: 5px;
@@ -59,15 +45,28 @@ nav a {
     margin: 10px;
     border: 2px solid rgb(73, 60, 169);
     border-radius: 5px;
-
 }
-
-/* You can put commas to target different elements at the same time
-h1, p {
-    color: red;
-} */
 
 nav a:hover {
     color: rgb(68, 73, 132);
     background-color: rgb(231, 231, 231, .6);
+}
+
+/* Centering the image:
+You can make it a block with display: block and then centering it with margin: 0 auto, or you could put the image in its own <div> section and center it with margin 0 auto */
+img {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+#container {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: rgb(235, 233, 253);
+}
+
+.room {
+    background-color: rgb(231, 231, 231);
+    color: rgb(73, 60, 169);
 }
