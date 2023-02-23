@@ -158,8 +158,8 @@ footer .social img {
 }
 
 .join {
-    background-color:#F7E7BD ;
-    color: #5D576B;
+    background-color:#5D576B;
+    color: #F7E7BD;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -223,19 +223,16 @@ footer .social img {
 }
 
 .rivers-card {
-    margin: 200px;
     grid-column: 2/4;
     grid-row: 2/3;
 }
 
 .camping-card {
-    margin: 200px;
     grid-column: 5/7;
     grid-row: 2/3;
 }
 
 .rapids-card {
-    margin: 200px;
     grid-column: 8/10;
     grid-row: 2/3;
 }
