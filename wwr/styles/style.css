@@ -125,7 +125,7 @@ footer .social img {
 #hero-msg h1 {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(255, 255, 255)
+    color: #e8d29b
 }
 
 #hero-msg h4 {
@@ -247,7 +247,6 @@ footer .social img {
 
 
 
-
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -289,3 +288,8 @@ footer .social img {
         margin-top: 25px;
     }
 }
+
+/* VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
+/* ---------------------------------------------------- BLOG CSS ---------------------------------------------------- */
+/* VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
+
