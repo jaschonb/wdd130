@@ -299,7 +299,7 @@ footer .social img {
     grid-template-columns: repeat(6, 1fr);
     justify-items: center;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
 }
 
 .summer-image {
@@ -307,7 +307,6 @@ footer .social img {
     grid-row: 1/3;
     border: 10px solid #6f7364;
     width: 100%;
-    /* height: 100%; */
     box-shadow: 5px 5px 10px #21201f;
 }
 
@@ -322,8 +321,13 @@ footer .social img {
     grid-template-columns: repeat(8, 1fr);
     justify-items: center;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
 
+}
+
+.season-h2 {
+    text-align: center;
+    padding: 15px;
 }
 
 .season-text {
@@ -336,6 +340,7 @@ footer .social img {
     line-height: 1.5em;
     padding: 35px;
     box-shadow: 5px 5px 10px #21201f;
+    text-align: center;
 }
 
 .season-image {
@@ -351,7 +356,7 @@ footer .social img {
     grid-template-columns: repeat(10, 1fr);
     justify-items: center;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 .wild-image1 {
@@ -381,4 +386,5 @@ footer .social img {
     height: 100%;
     grid-row: 1/4;
     padding-top: 20px;
+    text-align: center;
 }
